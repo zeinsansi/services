@@ -1,0 +1,8 @@
+services:
+  services_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: services
+    ports:
+      - "8003:8003"
